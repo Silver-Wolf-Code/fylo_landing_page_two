@@ -1,0 +1,16 @@
+.footer {
+  padding: 60px 50px 50px 50px;
+
+  .footer__container__two {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+    .footer__content__two {
+      display: flex;
+      justify-content: space-around;
+    }
+
+  }
+
+}

@@ -1,0 +1,304 @@
+.main {
+
+  .main__container {
+    display: grid;
+    text-align: center;
+    padding: 80px 30px 0 30px;
+    color: $Very-Dark-Blue;
+    font-family: $Family-Open-Sans;
+    margin-bottom: 160px;
+
+    .main__content {
+      order: 1;
+      padding: 0 10px 0 10px;
+
+      .main__title {
+        margin-bottom: 20px;
+        line-height: 1.6;
+        font-size: 2.5rem;
+      }
+
+      .main__copy {
+        font-size: 1.4rem;
+        margin-bottom: 30px;
+      }
+
+      .main__form {
+        display: flex;
+        flex-direction: column;
+
+        .main__email {
+          height: 40px;
+          width: 100%;
+          margin-bottom: 20px;
+          padding: 0 15px;
+          outline: none;
+          border: none;
+          border: 1px solid $Very-Dark-Blue;
+          border-radius: 3px;
+        }
+
+        .main__email::placeholder {
+          color: $Light-Gray;
+        }
+
+        .main__btn {
+          height: 40px;
+          border: none;
+          background: $Bright-Blue;
+          color: $Light-Grayish-Blue;
+          border-radius: 3px;
+          font-weight: 500;
+          outline: none;
+          box-shadow: 0 3px 5px -1.8px $Desaturated-Blue;
+
+          &:hover {
+            cursor: pointer;
+            background: rgb(92, 132, 243);
+            transition: 0.5s;
+          }
+
+        }
+
+      }
+
+    }
+
+    .main__content__two {
+      width: 100%;
+      margin-bottom: 40px;
+
+      .main__img {
+        width: 100%;
+      }
+
+    }
+
+  }
+
+  .main__container__two {
+    display: grid;
+    padding: 0 25px 0 25px;
+    color: $Very-Dark-Blue;
+    font-family: $Family-Raleway;
+    margin-bottom: 70px;
+
+    .main__content {
+      order: 1;
+
+      .main__title {
+        font-size: 1.63rem;
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      .main__copy {
+        font-size: 1.4rem;
+        color: $Desaturated-Blue;
+        margin-bottom: 20px;
+      }
+
+      .main__copy--mod {
+        margin-bottom: 30px;
+      }
+
+      .main__div {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+
+        .main__link {
+          font-size: 1.4rem;
+          text-decoration: none;
+          color: $Moderate-Cyan;
+          border-bottom: 1px solid $Moderate-Cyan;
+          width: max-content;
+          line-height: 1.9;
+          display: flex;
+          align-items: center;
+
+          &:hover {
+            color: rgb(106, 209, 192);
+            border-color: rgb(106, 209, 192);
+          }
+
+          &:hover .main__ico--mod {
+            margin-left: 8px;
+            display: initial;
+          }
+
+          &:hover .main__ico {
+            display: none;
+          }
+
+          .main__ico {
+            margin-left: 8px;
+          }
+
+          .main__ico--mod {
+            display: none;
+          }
+
+        }
+
+      }
+
+      .card {
+        background: #fff;
+        box-shadow: 0 0 8px 1px $Light-Gray;
+        border-radius: 5px;
+        padding: 18px;
+        font-size: 1.1rem;
+        color: $Very-Dark-Blue;
+        margin: 0 20px;
+
+        .card__ico {
+          margin-bottom: 5px;
+        }
+
+        .card__copy {
+          font-weight: 500;
+          line-height: 1.5;
+          margin-bottom: 15px;
+          font-family: $Family-Open-Sans;
+        }
+
+        .card__end {
+          display: flex;
+          align-items: center;
+
+          .card__img {
+            height: 30px;
+            border-radius: 50px;
+          }
+
+          .card__text {
+            display: flex;
+            flex-direction: column;
+            margin-left: 8px;
+
+            .card__name {
+              font-weight: 600;
+              margin-bottom: 2px;
+            }
+
+            .card__profetion {
+              font-size: 0.8rem;
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
+    .main__content__two {
+      width: 100%;
+      margin-bottom: 80px;
+
+      .main__img {
+        width: inherit;
+      }
+
+    }
+
+  }
+
+  .main__contentainer__three {
+    color: $Light-Grayish-Blue;
+    background: $Desaturated-Blue;
+    padding: 60px 41px;
+    text-align: center;
+    font-family: $Family-Open-Sans;
+
+    .main__content {
+      margin-bottom: 15px;
+
+      .main__title {
+        font-size: 1.7rem;
+        margin-bottom: 15px;
+        font-weight: 500;
+      }
+
+      .main__copy {
+        font-size: 1.48rem;
+        font-weight: 300;
+        line-height: 1.5;
+      }
+
+    }
+
+    .main__form {
+      display: flex;
+      flex-direction: column;
+      padding: 0 25px;
+
+      .main__email {
+        width: 100%;
+        height: 32px;
+        padding: 0 10px;
+        outline: none;
+        margin-bottom: 10px;
+        border: none;
+        border-radius: 3px;
+      }
+
+      .main__email::placeholder {
+        color: $Light-Gray;
+        font-size: 1.2rem;
+      }
+
+      .main__btn {
+        height: 32px;
+        font-size: 1.2rem;
+        background: $Bright-Blue;
+        color: $Light-Grayish-Blue;
+        border: none;
+        border-radius: 3px;
+        outline: none;
+
+        &:hover{
+          background: rgb(92, 132, 243);
+          cursor: pointer;
+          transition: 0.5s;
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+// Style For Emails
+
+.label__email{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  #text{
+    font-size: 1.4rem;
+    margin-bottom: 13px;
+    margin-top: -15px;
+  }
+
+}
+
+.label__email_two{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  #text_two{
+    font-size: 1.4rem;
+    margin-bottom: 13px;
+    margin-top: -2px;
+  }
+
+}

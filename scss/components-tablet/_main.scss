@@ -1,0 +1,113 @@
+.main {
+
+  .main__container {
+
+    .main__content {
+
+      .main__title {
+        font-size: 2.6rem;
+        max-width: 430px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+      }
+
+      .main__copy {
+        font-size: 1.5rem;
+        max-width: 470px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+      }
+
+      .main__form {
+        max-width: 420px;
+        margin: 0 auto;
+      }
+
+    }
+
+    .main__content__two {
+      max-width: 600px;
+      margin: auto;
+      margin-bottom: 40px;
+    }
+
+  }
+
+  .main__container__two {
+
+    .main__content {
+
+      .main__title {
+        font-size: 2.1rem;
+      }
+
+      .main__copy {
+        font-size: 1.5rem;
+        max-width: 490px;
+        margin: auto;
+        margin-bottom: 20px;
+      }
+
+      .card {
+        max-width: 350px;
+        margin: auto;
+        font-size: 1.2rem;
+
+        .card__end {
+
+          .card__text {
+
+            .card__profetion {
+              font-size: 0.9rem;
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
+    .main__content__two {
+      max-width: 600px;
+      margin: auto;
+      margin-bottom: 80px;
+    }
+
+  }
+
+  .main__contentainer__three {
+
+    .main__content {
+      max-width: 450px;
+      margin: auto;
+      margin-bottom: 15px;
+
+      .main__title {
+        font-size: 1.8rem;
+      }
+
+      .main__copy {
+        font-size: 1.5rem;
+      }
+
+    }
+
+    .main__form {
+      max-width: 420px;
+      margin: auto;
+
+      .main__email {
+        height: 36px;
+      }
+
+      .main__btn {
+        height: 36px;
+      }
+
+    }
+
+  }
+
+}

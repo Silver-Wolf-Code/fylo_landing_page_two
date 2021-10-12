@@ -1,0 +1,87 @@
+.hero {
+  padding: 35px 40px 20px 40px;
+  grid-template-columns: 95px auto;
+}
+
+.hero .hero__container__two .hero__list .hero__item .hero__link {
+  font-size: 1.4rem;
+}
+
+.main .main__container .main__content .main__title {
+  font-size: 2.6rem;
+  max-width: 430px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.main .main__container .main__content .main__copy {
+  font-size: 1.5rem;
+  max-width: 470px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.main .main__container .main__content .main__form {
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.main .main__container .main__content__two {
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.main .main__container__two .main__content .main__title {
+  font-size: 2.1rem;
+}
+
+.main .main__container__two .main__content .main__copy {
+  font-size: 1.5rem;
+  max-width: 490px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.main .main__container__two .main__content .card {
+  max-width: 350px;
+  margin: auto;
+  font-size: 1.2rem;
+}
+
+.main .main__container__two .main__content .card .card__end .card__text .card__profetion {
+  font-size: 0.9rem;
+}
+
+.main .main__container__two .main__content__two {
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 80px;
+}
+
+.main .main__contentainer__three .main__content {
+  max-width: 450px;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.main .main__contentainer__three .main__content .main__title {
+  font-size: 1.8rem;
+}
+
+.main .main__contentainer__three .main__content .main__copy {
+  font-size: 1.5rem;
+}
+
+.main .main__contentainer__three .main__form {
+  max-width: 420px;
+  margin: auto;
+}
+
+.main .main__contentainer__three .main__form .main__email {
+  height: 36px;
+}
+
+.main .main__contentainer__three .main__form .main__btn {
+  height: 36px;
+}

@@ -1,0 +1,47 @@
+.hero{
+  display: grid;
+  grid-template-columns: 85px auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 25px;
+
+  .hero__container{
+
+    .hero__img{
+      width: 100%;
+    }
+
+  }
+
+  .hero__container__two{
+
+    .hero__list{
+      
+      .hero__item{
+        display: grid;
+        grid-template-columns: repeat(3,auto);
+        gap: 20px;  
+        list-style: none;
+
+        .hero__link{
+          text-decoration: none;
+          color: $Very-Dark-Blue;
+          font-family: $Family-Raleway;
+          font-size: 1.3rem;
+          font-weight: 500;
+          line-height: 1.5;
+
+          &:hover{
+            border-bottom: 1px solid $Very-Dark-Blue;
+            transition: .5s;
+          }
+
+        }
+        
+      }
+
+    }
+
+  }
+
+}

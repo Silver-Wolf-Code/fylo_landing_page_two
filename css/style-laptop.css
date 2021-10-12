@@ -1,0 +1,70 @@
+.hero {
+  grid-template-columns: 110px auto;
+  padding: 45px 50px 20px 50px;
+}
+
+.hero .hero__container__two .hero__list .hero__item .hero__link {
+  font-size: 1.5rem;
+}
+
+.main .main__container {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  padding: 80px 40px 0 40px;
+  margin-bottom: 200px;
+}
+
+.main .main__container .main__content {
+  order: 0;
+  text-align: start;
+}
+
+.main .main__container__two {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  padding: 0 50px;
+}
+
+.main .main__container__two .main__content {
+  order: 0;
+}
+
+.main .main__container__two .main__content .main__title {
+  text-align: start;
+}
+
+.main .main__container__two .main__content .main__div {
+  justify-content: start;
+}
+
+.main .main__container__two .main__content .card {
+  margin: 0;
+}
+
+.main .main__contentainer__three {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  text-align: start;
+  justify-content: space-between;
+  padding: 60px 50px;
+}
+
+.main .main__contentainer__three .main__form {
+  width: 100%;
+}
+
+.footer {
+  padding: 60px 50px 50px 50px;
+}
+
+.footer .footer__container__two {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.footer .footer__container__two .footer__content__two {
+  display: flex;
+  justify-content: space-around;
+}
